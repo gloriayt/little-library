@@ -495,7 +495,9 @@ module.exports = function (grunt) {
     'uglify',
     'filerev',
     'usemin',
-    'htmlmin'
+    'htmlmin',
+    'imagemin',
+    'svgmin',
   ]);
 
   grunt.registerTask('default', [
