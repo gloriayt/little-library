@@ -308,7 +308,7 @@ module.exports = function (grunt) {
        },
        options: {
         target: '.tmp/styles/main.css',
-        relativeTo: '.tmp/styles/'
+        relativeTo: '.tmp/img/'
       }
      },
      uglify: {
