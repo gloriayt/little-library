@@ -1,12 +1,7 @@
 # little-library
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.16.0. View it here: https://gloriayt.github.io/little-library/ 
+This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular) version 0.16.0. 
 
-## Build & development
+View it here: https://gloriayt.github.io/little-library/ 
 
-Run `grunt` for building and `grunt serve` for preview.
-
-## Testing
-
-Running `grunt test` will run the unit tests with karma.
+Adapted from Codeacademy's AngularJS Reader Project.
