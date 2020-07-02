@@ -305,7 +305,11 @@ module.exports = function (grunt) {
              '.tmp/styles/{,*/}*.css'
            ]
          }
-       }
+       },
+       options: {
+        target: '.tmp/styles/main.css',
+        relativeTo: '.tmp/styles/'
+      }
      },
      uglify: {
        dist: {
