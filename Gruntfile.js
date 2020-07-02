@@ -289,7 +289,7 @@ module.exports = function (grunt) {
           '<%= yeoman.dist %>/styles'
         ],
         patterns: {
-          js: [[/(img\/[^''""]*\.(png|jpg|jpeg|gif|webp|svg))/g, 'Replacing references to img']]
+          js: [[/referenceToImage = '([^\']+)'/, 'Replacing image']]
         }
       }
     },
