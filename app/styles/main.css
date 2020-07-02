@@ -126,6 +126,8 @@ body, html {
     border-left: 4px solid black;
     top: 50%;
     width: 0;
+    background: #ff2c4b;
+    background-size: 80px 80px;
 }
 
 .next {
@@ -137,6 +139,8 @@ body, html {
     border-left: 4px solid black;
     left: auto;
     right: 20px;   
+    background: #ff2c4b;
+    background-size: 80px 80px;
 }
 
 .back:hover {
@@ -146,6 +150,8 @@ body, html {
     -webkit-transform: rotate(-45deg);
     border-top: 5px solid black;
     border-left: 5px solid black;
+    background: #ff2c4b;
+    background-size: 80px 80px;
 }
 
 .next:hover {
@@ -155,6 +161,8 @@ body, html {
     -webkit-transform: rotate(135deg);
     border-top: 5px solid black;
     border-left: 5px solid black;
+    background: #ff2c4b;
+    background-size: 80px 80px;
 }
 
 .chapter {
@@ -178,8 +186,9 @@ body, html {
     font-style: italic;   
 }
 
-@media (max-width: 1170px) {
+@media (max-width: 11700px) {
   .back, .next {
+    background: #ff2c4b;
     background-size: 40px 40px;
     height: 40px;
     width: 40px;
